@@ -1,6 +1,7 @@
 import { Target, Users, TrendingUp, Award, Calendar } from 'lucide-react';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 import GridDots from './GridDots';
+import aboutImage from '../img/image1.jpeg';
 
 export default function About() {
   const { ref, isVisible } = useScrollReveal();
@@ -35,7 +36,7 @@ export default function About() {
             {/* Main image container */}
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-purple-500">
               <img
-                src="/src/img/image1.jpeg"
+                src={aboutImage}
                 alt="Tim EterInfinity bekerja sama"
                 className="w-full h-auto object-cover"
               />

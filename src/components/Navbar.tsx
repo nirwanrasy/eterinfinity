@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import logoImage from '../img/logo_eterinfinity.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +38,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center gap-2">
             <img
-              src="/src/img/logo_eterinfinity.png"
+              src={logoImage}
               alt="EterInfinity Logo"
               className="h-10 w-10 object-contain"
             />
