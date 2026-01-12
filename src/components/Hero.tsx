@@ -54,7 +54,7 @@ export default function Hero() {
             {/* Main image container */}
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-purple-500">
               <img
-                src="/src/img/image1.jpeg"
+                src="/src/img/image1.png"
                 alt="EterInfinity AI Training Platform"
                 className="w-full h-auto object-cover"
               />
