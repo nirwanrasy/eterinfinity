@@ -1,7 +1,7 @@
 import { Target, Users, TrendingUp, Award, Calendar } from 'lucide-react';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 import GridDots from './GridDots';
-import aboutImage from '../img/image1.jpeg';
+import aboutImage from '../img/image1.png';
 
 export default function About() {
   const { ref, isVisible } = useScrollReveal();
