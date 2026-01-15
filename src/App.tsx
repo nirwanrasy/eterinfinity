@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Sponsors from './components/Sponsors';
 import About from './components/About';
 import Services from './components/Services';
 import Challenges from './components/Challenges';
@@ -25,6 +26,7 @@ function App() {
       <div className="relative z-10">
         <Navbar />
         <Hero />
+        <Sponsors />
         <About />
         <Services />
         <Challenges />

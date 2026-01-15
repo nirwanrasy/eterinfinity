@@ -141,3 +141,33 @@ body {
 .animate-pulse-glow {
   animation: pulse-glow 4s ease-in-out infinite;
 }
+
+/* Sponsors Infinite Scroll Carousel */
+.sponsors-slider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+}
+
+.sponsors-track {
+  display: flex;
+  gap: 1.5rem;
+  animation: sponsors-scroll 60s linear infinite;
+  width: max-content;
+}
+
+.sponsor-card {
+  flex-shrink: 0;
+}
+
+@keyframes sponsors-scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
